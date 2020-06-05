@@ -127,9 +127,9 @@ Module.register("MMM-SpaceLaunchNow", {
 			var launchDate = document.createElement("td");
 			var timestamp = new Date(launch.net);
 			if (this.config.showExtraInfo) {
-				var localLaunchDate = timestamp.toString().slice(4, 24);
+				var localLaunchDate = timestamp.toString().slice(4, 11) + "- " + timestamp.toString().slice(16, 21);
 			} else {
-				var localLaunchDate = timestamp.toString().slice(4, 15);
+				var localLaunchDate = timestamp.toString().slice(4, 11);
 			}
 			launchDate.innerHTML = localLaunchDate;
 			launchRow.appendChild(launchDate);
@@ -217,11 +217,11 @@ Module.register("MMM-SpaceLaunchNow", {
 			thAgency.appendChild(document.createTextNode("Agency"));
 		}
 		var thMission = document.createElement("th");
-		thMission.appendChild(document.createTextNode("Mission Name"));
+		thMission.appendChild(document.createTextNode("Mission"));
 		var thLaunchSite = document.createElement("th");
-		thLaunchSite.appendChild(document.createTextNode("Launch Site"));
+		thLaunchSite.appendChild(document.createTextNode("Site"));
 		var thLaunchDate = document.createElement("th");
-		thLaunchDate.appendChild(document.createTextNode("Launch Date"));
+		thLaunchDate.appendChild(document.createTextNode("Date"));
 		var thStatus = document.createElement("th");
 		thStatus.appendChild(document.createTextNode("Status"));
 
