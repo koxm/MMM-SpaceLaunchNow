@@ -21,7 +21,7 @@ var config = {
                 records: 8,
                 modus: "upcoming",
                 showExtraInfo: true,
-		        showColumnHeader: true,
+		showColumnHeader: true,
 	    }
 	},
     ]
