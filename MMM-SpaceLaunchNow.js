@@ -12,7 +12,7 @@ Module.register("MMM-SpaceLaunchNow", {
 		initialLoadDelay: 2500,
 		retryDelay: 2500,
 		headerText: "SpaceLaunchNow",
-		maxWidthWide: 35,
+		maxWidthWide: 30,
 		maxWidthSmall: 12,
 		apiBase: "https://spacelaunchnow.me/api/3.3.0/launch",
 		tableClass: "small",
