@@ -1,4 +1,4 @@
-# MMM-SpaceX
+# MMM-SpaceLaunchNow
 
 This is a module for [MagicMirror²](https://github.com/MichMich/MagicMirror/).
 
