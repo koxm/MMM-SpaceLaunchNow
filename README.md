@@ -21,7 +21,7 @@ var config = {
                 records: 8,
                 modus: "upcoming",
                 showExtraInfo: true,
-		        showColumnHeader: true,
+		showColumnHeader: true,
 	    }
 	},
     ]
@@ -39,8 +39,8 @@ var config = {
 
 ## Screenshot
 
-This is a screenshot with extra info on false. Looks best on a left or right region. 
+This is a screenshot with extra info on true. Looks better on a wider region, for example middle_center of bottom_bar.
 ![Screenshot](https://github.com/koxm/MMM-SpaceLaunchNow/blob/master/Screenshot%201.png)
 
-This is a screenshot with extra info on true. Looks better on a wider region, for example middle_center of bottom_bar.
+This is a screenshot with extra info on false. Looks best on a left or right region. 
 ![Screenshot](https://github.com/koxm/MMM-SpaceLaunchNow/blob/master/Screenshot%202.png)
